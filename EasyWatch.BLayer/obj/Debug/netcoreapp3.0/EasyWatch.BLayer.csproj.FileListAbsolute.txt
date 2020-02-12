@@ -1,0 +1,11 @@
+E:\School\EasyWatch\EasyWatch.BLayer\bin\Debug\netcoreapp3.0\EasyWatch.BLayer.exe
+E:\School\EasyWatch\EasyWatch.BLayer\bin\Debug\netcoreapp3.0\EasyWatch.BLayer.deps.json
+E:\School\EasyWatch\EasyWatch.BLayer\bin\Debug\netcoreapp3.0\EasyWatch.BLayer.runtimeconfig.json
+E:\School\EasyWatch\EasyWatch.BLayer\bin\Debug\netcoreapp3.0\EasyWatch.BLayer.runtimeconfig.dev.json
+E:\School\EasyWatch\EasyWatch.BLayer\bin\Debug\netcoreapp3.0\EasyWatch.BLayer.dll
+E:\School\EasyWatch\EasyWatch.BLayer\bin\Debug\netcoreapp3.0\EasyWatch.BLayer.pdb
+E:\School\EasyWatch\EasyWatch.BLayer\obj\Debug\netcoreapp3.0\EasyWatch.BLayer.csprojAssemblyReference.cache
+E:\School\EasyWatch\EasyWatch.BLayer\obj\Debug\netcoreapp3.0\EasyWatch.BLayer.AssemblyInfoInputs.cache
+E:\School\EasyWatch\EasyWatch.BLayer\obj\Debug\netcoreapp3.0\EasyWatch.BLayer.AssemblyInfo.cs
+E:\School\EasyWatch\EasyWatch.BLayer\obj\Debug\netcoreapp3.0\EasyWatch.BLayer.dll
+E:\School\EasyWatch\EasyWatch.BLayer\obj\Debug\netcoreapp3.0\EasyWatch.BLayer.pdb

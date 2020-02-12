@@ -1,0 +1,8 @@
+E:\School\EasyWatch\EasyWatch.Common\bin\Debug\netstandard2.0\EasyWatch.Common.deps.json
+E:\School\EasyWatch\EasyWatch.Common\bin\Debug\netstandard2.0\EasyWatch.Common.dll
+E:\School\EasyWatch\EasyWatch.Common\bin\Debug\netstandard2.0\EasyWatch.Common.pdb
+E:\School\EasyWatch\EasyWatch.Common\obj\Debug\netstandard2.0\EasyWatch.Common.csprojAssemblyReference.cache
+E:\School\EasyWatch\EasyWatch.Common\obj\Debug\netstandard2.0\EasyWatch.Common.AssemblyInfoInputs.cache
+E:\School\EasyWatch\EasyWatch.Common\obj\Debug\netstandard2.0\EasyWatch.Common.AssemblyInfo.cs
+E:\School\EasyWatch\EasyWatch.Common\obj\Debug\netstandard2.0\EasyWatch.Common.dll
+E:\School\EasyWatch\EasyWatch.Common\obj\Debug\netstandard2.0\EasyWatch.Common.pdb

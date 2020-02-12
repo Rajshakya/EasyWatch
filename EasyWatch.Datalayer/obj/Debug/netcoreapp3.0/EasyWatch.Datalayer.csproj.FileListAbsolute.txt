@@ -1,0 +1,10 @@
+E:\School\EasyWatch\EasyWatch.Datalayer\obj\Debug\netcoreapp3.0\EasyWatch.Datalayer.csprojAssemblyReference.cache
+E:\School\EasyWatch\EasyWatch.Datalayer\obj\Debug\netcoreapp3.0\EasyWatch.Datalayer.AssemblyInfoInputs.cache
+E:\School\EasyWatch\EasyWatch.Datalayer\obj\Debug\netcoreapp3.0\EasyWatch.Datalayer.AssemblyInfo.cs
+E:\School\EasyWatch\EasyWatch.Datalayer\bin\Debug\netcoreapp3.0\EasyWatch.Datalayer.deps.json
+E:\School\EasyWatch\EasyWatch.Datalayer\bin\Debug\netcoreapp3.0\EasyWatch.Datalayer.runtimeconfig.json
+E:\School\EasyWatch\EasyWatch.Datalayer\bin\Debug\netcoreapp3.0\EasyWatch.Datalayer.runtimeconfig.dev.json
+E:\School\EasyWatch\EasyWatch.Datalayer\bin\Debug\netcoreapp3.0\EasyWatch.Datalayer.dll
+E:\School\EasyWatch\EasyWatch.Datalayer\bin\Debug\netcoreapp3.0\EasyWatch.Datalayer.pdb
+E:\School\EasyWatch\EasyWatch.Datalayer\obj\Debug\netcoreapp3.0\EasyWatch.Datalayer.dll
+E:\School\EasyWatch\EasyWatch.Datalayer\obj\Debug\netcoreapp3.0\EasyWatch.Datalayer.pdb
