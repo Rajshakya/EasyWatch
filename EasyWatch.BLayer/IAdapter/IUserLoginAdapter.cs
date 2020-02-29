@@ -1,4 +1,5 @@
-﻿using EasyWatch.Datalayer.Models;
+﻿using EasyWatch.Common.Request;
+using EasyWatch.Datalayer.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,6 +9,6 @@ namespace EasyWatch.BLayer.IAdapter
 {
     public interface IUserLoginAdapter
     {
-        Task<UserLogin> AddAsync(UserLogin entity);
+        Task<LoginRequest> AddAsync(UserLogin entity);
     }
 }

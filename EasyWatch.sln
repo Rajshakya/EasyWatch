@@ -3,13 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyWatch.API", "EasyWatch.API\EasyWatch.API.csproj", "{2F0CBAA8-1694-4EC2-B689-C60FC1E0E905}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyWatch.API", "EasyWatch.API\EasyWatch.API.csproj", "{2F0CBAA8-1694-4EC2-B689-C60FC1E0E905}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyWatch.BLayer", "EasyWatch.BLayer\EasyWatch.BLayer.csproj", "{FE2A6381-D285-489F-8ABC-0E413E0D82EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyWatch.BLayer", "EasyWatch.BLayer\EasyWatch.BLayer.csproj", "{FE2A6381-D285-489F-8ABC-0E413E0D82EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyWatch.Datalayer", "EasyWatch.Datalayer\EasyWatch.Datalayer.csproj", "{8DAF9773-0664-46BB-B1D4-D14FF177680C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyWatch.Datalayer", "EasyWatch.Datalayer\EasyWatch.Datalayer.csproj", "{8DAF9773-0664-46BB-B1D4-D14FF177680C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyWatch.Common", "EasyWatch.Common\EasyWatch.Common.csproj", "{C93446EB-7BF6-4E4C-B53C-F7978D61035C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyWatch.Common", "EasyWatch.Common\EasyWatch.Common.csproj", "{C93446EB-7BF6-4E4C-B53C-F7978D61035C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyWatch.ConfigurationBuilder", "EasyWatch.ConfigurationBuilder\EasyWatch.ConfigurationBuilder.csproj", "{A0F34072-9D21-4D89-BE07-B829B46E2C9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyWatch.Utilities", "EasyWatch.Utilities\EasyWatch.Utilities.csproj", "{394932CC-CF8E-4FDB-B609-6FC47F5CF8E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientSide", "ClientSide", "{ECCDD798-A5AC-489B-B129-50574514D430}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyWatch.SchoolAdmin", "EasyWatch.SchoolAdmin\EasyWatch.SchoolAdmin.csproj", "{73DBBE11-C738-4292-9E6D-1B027D9AF5E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyWatch.School", "EasyWatch.School\EasyWatch.School.csproj", "{552ABE4A-3F91-47CF-B828-F84D7C72A743}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyWatch.Support", "EasyWatch.Support\EasyWatch.Support.csproj", "{E0327FC8-6569-4C3E-B77D-61F888F630F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyWatch.Logger", "EasyWatch.Logger\EasyWatch.Logger.csproj", "{8BED4884-AAE0-4161-BCE0-0F87AC764FE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +47,38 @@ Global
 		{C93446EB-7BF6-4E4C-B53C-F7978D61035C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C93446EB-7BF6-4E4C-B53C-F7978D61035C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C93446EB-7BF6-4E4C-B53C-F7978D61035C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F34072-9D21-4D89-BE07-B829B46E2C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F34072-9D21-4D89-BE07-B829B46E2C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F34072-9D21-4D89-BE07-B829B46E2C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F34072-9D21-4D89-BE07-B829B46E2C9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394932CC-CF8E-4FDB-B609-6FC47F5CF8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394932CC-CF8E-4FDB-B609-6FC47F5CF8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394932CC-CF8E-4FDB-B609-6FC47F5CF8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394932CC-CF8E-4FDB-B609-6FC47F5CF8E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73DBBE11-C738-4292-9E6D-1B027D9AF5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73DBBE11-C738-4292-9E6D-1B027D9AF5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73DBBE11-C738-4292-9E6D-1B027D9AF5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73DBBE11-C738-4292-9E6D-1B027D9AF5E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{552ABE4A-3F91-47CF-B828-F84D7C72A743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{552ABE4A-3F91-47CF-B828-F84D7C72A743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{552ABE4A-3F91-47CF-B828-F84D7C72A743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{552ABE4A-3F91-47CF-B828-F84D7C72A743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0327FC8-6569-4C3E-B77D-61F888F630F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0327FC8-6569-4C3E-B77D-61F888F630F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0327FC8-6569-4C3E-B77D-61F888F630F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0327FC8-6569-4C3E-B77D-61F888F630F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BED4884-AAE0-4161-BCE0-0F87AC764FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BED4884-AAE0-4161-BCE0-0F87AC764FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BED4884-AAE0-4161-BCE0-0F87AC764FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BED4884-AAE0-4161-BCE0-0F87AC764FE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73DBBE11-C738-4292-9E6D-1B027D9AF5E6} = {ECCDD798-A5AC-489B-B129-50574514D430}
+		{552ABE4A-3F91-47CF-B828-F84D7C72A743} = {ECCDD798-A5AC-489B-B129-50574514D430}
+		{E0327FC8-6569-4C3E-B77D-61F888F630F9} = {ECCDD798-A5AC-489B-B129-50574514D430}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7B7B59E-E896-4FF2-9CAC-1A6E909E1141}

@@ -16,16 +16,6 @@ namespace EasyWatch.API.Controllers
         {
 
         }
-        public async Task<IActionResult> Login([FromBody]LoginRequest request)
-        {
-            try
-            {
-              return  Ok();
-            }
-            catch(Exception ex)
-            {
-                return NotFound();
-            }
-        }
+       
     }
 }

@@ -32,11 +32,20 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
+              "E:\\School\\EasyWatch\\EasyWatch.BLayer\\EasyWatch.BLayer.csproj": {
+                "projectPath": "E:\\School\\EasyWatch\\EasyWatch.BLayer\\EasyWatch.BLayer.csproj"
+              },
               "E:\\School\\EasyWatch\\EasyWatch.Common\\EasyWatch.Common.csproj": {
                 "projectPath": "E:\\School\\EasyWatch\\EasyWatch.Common\\EasyWatch.Common.csproj"
               },
+              "E:\\School\\EasyWatch\\EasyWatch.ConfigurationBuilder\\EasyWatch.ConfigurationBuilder.csproj": {
+                "projectPath": "E:\\School\\EasyWatch\\EasyWatch.ConfigurationBuilder\\EasyWatch.ConfigurationBuilder.csproj"
+              },
               "E:\\School\\EasyWatch\\EasyWatch.Datalayer\\EasyWatch.Datalayer.csproj": {
                 "projectPath": "E:\\School\\EasyWatch\\EasyWatch.Datalayer\\EasyWatch.Datalayer.csproj"
+              },
+              "E:\\School\\EasyWatch\\EasyWatch.Logger\\EasyWatch.Logger.csproj": {
+                "projectPath": "E:\\School\\EasyWatch\\EasyWatch.Logger\\EasyWatch.Logger.csproj"
               }
             }
           }
@@ -50,19 +59,27 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.0.0-preview8.19405.11, )"
             },
-            "Microsoft.Extensions.Logging.Debug": {
-              "target": "Package",
-              "version": "[3.0.0, )"
-            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.6.8, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.9.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -83,6 +100,76 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\School\\EasyWatch\\EasyWatch.BLayer\\EasyWatch.BLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\School\\EasyWatch\\EasyWatch.BLayer\\EasyWatch.BLayer.csproj",
+        "projectName": "EasyWatch.BLayer",
+        "projectPath": "E:\\School\\EasyWatch\\EasyWatch.BLayer\\EasyWatch.BLayer.csproj",
+        "packagesPath": "C:\\Users\\Raj Kumar\\.nuget\\packages\\",
+        "outputPath": "E:\\School\\EasyWatch\\EasyWatch.BLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raj Kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "E:\\School\\EasyWatch\\EasyWatch.Common\\EasyWatch.Common.csproj": {
+                "projectPath": "E:\\School\\EasyWatch\\EasyWatch.Common\\EasyWatch.Common.csproj"
+              },
+              "E:\\School\\EasyWatch\\EasyWatch.Datalayer\\EasyWatch.Datalayer.csproj": {
+                "projectPath": "E:\\School\\EasyWatch\\EasyWatch.Datalayer\\EasyWatch.Datalayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -151,6 +238,79 @@
         }
       }
     },
+    "E:\\School\\EasyWatch\\EasyWatch.ConfigurationBuilder\\EasyWatch.ConfigurationBuilder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\School\\EasyWatch\\EasyWatch.ConfigurationBuilder\\EasyWatch.ConfigurationBuilder.csproj",
+        "projectName": "EasyWatch.ConfigurationBuilder",
+        "projectPath": "E:\\School\\EasyWatch\\EasyWatch.ConfigurationBuilder\\EasyWatch.ConfigurationBuilder.csproj",
+        "packagesPath": "C:\\Users\\Raj Kumar\\.nuget\\packages\\",
+        "outputPath": "E:\\School\\EasyWatch\\EasyWatch.ConfigurationBuilder\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raj Kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "E:\\School\\EasyWatch\\EasyWatch.BLayer\\EasyWatch.BLayer.csproj": {
+                "projectPath": "E:\\School\\EasyWatch\\EasyWatch.BLayer\\EasyWatch.BLayer.csproj"
+              },
+              "E:\\School\\EasyWatch\\EasyWatch.Logger\\EasyWatch.Logger.csproj": {
+                "projectPath": "E:\\School\\EasyWatch\\EasyWatch.Logger\\EasyWatch.Logger.csproj"
+              },
+              "E:\\School\\EasyWatch\\EasyWatch.Utilities\\EasyWatch.Utilities.csproj": {
+                "projectPath": "E:\\School\\EasyWatch\\EasyWatch.Utilities\\EasyWatch.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\School\\EasyWatch\\EasyWatch.Datalayer\\EasyWatch.Datalayer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -203,6 +363,147 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.0.0-preview8-19413-06, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\School\\EasyWatch\\EasyWatch.Logger\\EasyWatch.Logger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\School\\EasyWatch\\EasyWatch.Logger\\EasyWatch.Logger.csproj",
+        "projectName": "EasyWatch.Logger",
+        "projectPath": "E:\\School\\EasyWatch\\EasyWatch.Logger\\EasyWatch.Logger.csproj",
+        "packagesPath": "C:\\Users\\Raj Kumar\\.nuget\\packages\\",
+        "outputPath": "E:\\School\\EasyWatch\\EasyWatch.Logger\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raj Kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\School\\EasyWatch\\EasyWatch.Utilities\\EasyWatch.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\School\\EasyWatch\\EasyWatch.Utilities\\EasyWatch.Utilities.csproj",
+        "projectName": "EasyWatch.Utilities",
+        "projectPath": "E:\\School\\EasyWatch\\EasyWatch.Utilities\\EasyWatch.Utilities.csproj",
+        "packagesPath": "C:\\Users\\Raj Kumar\\.nuget\\packages\\",
+        "outputPath": "E:\\School\\EasyWatch\\EasyWatch.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raj Kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "E:\\School\\EasyWatch\\EasyWatch.Common\\EasyWatch.Common.csproj": {
+                "projectPath": "E:\\School\\EasyWatch\\EasyWatch.Common\\EasyWatch.Common.csproj"
+              },
+              "E:\\School\\EasyWatch\\EasyWatch.Datalayer\\EasyWatch.Datalayer.csproj": {
+                "projectPath": "E:\\School\\EasyWatch\\EasyWatch.Datalayer\\EasyWatch.Datalayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.2, )"
             }
           },
           "imports": [

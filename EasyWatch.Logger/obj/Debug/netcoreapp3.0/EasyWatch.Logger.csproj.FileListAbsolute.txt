@@ -1,0 +1,8 @@
+E:\School\EasyWatch\EasyWatch.Logger\bin\Debug\netcoreapp3.0\EasyWatch.Logger.deps.json
+E:\School\EasyWatch\EasyWatch.Logger\bin\Debug\netcoreapp3.0\EasyWatch.Logger.dll
+E:\School\EasyWatch\EasyWatch.Logger\obj\Debug\netcoreapp3.0\EasyWatch.Logger.csprojAssemblyReference.cache
+E:\School\EasyWatch\EasyWatch.Logger\obj\Debug\netcoreapp3.0\EasyWatch.Logger.AssemblyInfoInputs.cache
+E:\School\EasyWatch\EasyWatch.Logger\obj\Debug\netcoreapp3.0\EasyWatch.Logger.AssemblyInfo.cs
+E:\School\EasyWatch\EasyWatch.Logger\bin\Debug\netcoreapp3.0\EasyWatch.Logger.pdb
+E:\School\EasyWatch\EasyWatch.Logger\obj\Debug\netcoreapp3.0\EasyWatch.Logger.dll
+E:\School\EasyWatch\EasyWatch.Logger\obj\Debug\netcoreapp3.0\EasyWatch.Logger.pdb

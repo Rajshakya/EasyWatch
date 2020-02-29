@@ -1,18 +1,32 @@
-﻿using EasyWatch.BLayer.IAdapter;
+﻿using EasyWatch.BLayer.Base;
+using EasyWatch.BLayer.IAdapter;
 using EasyWatch.Datalayer.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
+using System.Linq;
+using EasyWatch.Common.Request;
+using AutoMapper.Configuration;
+using AutoMapper;
 
 namespace EasyWatch.BLayer
 {
 
-    public class UserLoginAdapter : IUserLoginAdapter
+    public class UserLoginAdapter : BaseAdapter,IUserLoginAdapter
     {
-        public Task<UserLogin> AddAsync(UserLogin entity)
+        public UserLoginAdapter(IConfiguration config, EasyWatchContext dbContext, IMapper mapper) : base(dbContext, mapper)
         {
-            throw new NotImplementedException();
+
+        }
+        public async Task<LoginRequest> AddAsync(UserLogin entity)
+        {
+            LoginRequest response = new LoginRequest();
+            await Task.Run(() =>
+            {
+                var userLogin = from u in DbContext.UserLogin select u; 
+
+
+
+            });
+            return response;
         }
     }
 }
